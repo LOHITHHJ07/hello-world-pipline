@@ -44,10 +44,7 @@
 				<artifactId>maven-war-plugin</artifactId>
 				<version>2.1.1</version>
 			</plugin>
-			 <plugins>
- 
-
-             <plugin>
+			     <plugin>
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
                 <version>${jacoco.version}</version>
@@ -67,8 +64,12 @@
                     </execution>
                 </executions>
             </plugin>
+	 <plugins>
+ 
 
-		</plugins>
+         
+
+		
 	</build>
 
 </project>

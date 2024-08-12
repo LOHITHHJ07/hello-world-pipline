@@ -31,11 +31,11 @@
     <distributionManagement>
         <repository>
             <id>maven-releases</id>
-            <url>http://65.2.151.25:8081/repository/maven-releases/</url> <!-- Replace with your team Nexus server -->
+            <url>http://13.233.224.99:8081/repository/maven-releases/</url> <!-- Replace with your team Nexus server -->
         </repository>
         <snapshotRepository>
             <id>maven-snapshots</id>
-            <url>http://65.2.151.25:8081/repository/maven-snapshots/</url> <!-- Replace with your team Nexus server -->
+            <url>http://13.233.224.99:8081/repository/maven-releases/</url><!-- Replace with your team Nexus server -->
         </snapshotRepository>
     </distributionManagement>
 
@@ -43,7 +43,7 @@
         <repository>
             <id>maven-releases</id>
             <name>maven-releases</name>
-            <url>http://65.2.151.25:8081/repository/maven-releases/</url>
+             <url>http://13.233.224.99:8081/repository/maven-releases/</url>
         </repository>
     </repositories>
 
